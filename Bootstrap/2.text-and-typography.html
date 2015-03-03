@@ -1,0 +1,109 @@
+<!--
+2.text-and-typography.html
+
+Copyright 2015 duoyuan ma
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title>Text and Typography</title>
+	<meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <style>
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+    </style>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+	
+    <div class='container'>
+        <h1>Text / Typography</h1>
+        
+        <h2>Default Settings</h2>
+        
+        <p>Bootstrap's global default <em>font-size</em> is
+           <strong>14px</strong>, with a <em>line-height</em> of
+           <strong>1.428</strong> (about <strong>20px</strong>).</p>
+        <p>This is applied to the <code>&lt;body&gt;</code> and all paragraphs
+           (<code>&lt;p&gt;</code>).</p>
+        <p>In addition, all <code>&lt;p&gt;</code> elements hava a <em>bottom
+           margin</em> that equals <em>half</em> their computed line-height
+           (<strong>10px</strong> by default).</p>
+           
+        <h3>h1 - h6</h3>
+        <ol>
+            <li><h1>h1 heading (36px)</h1></li>
+            <li><h2>h2 heading (30px)</h2></li>
+            <li><h3>h3 heading (24px)</h3></li>
+            <li><h4>h4 heading (18px)</h4></li>
+            <li><h5>h5 heading (14px)</h5></li>
+            <li><h6>h6 heading (12px)</h6></li>
+        </ol>
+        
+        <h3>small</h3>
+        <p>Example Corp today announced record profits for the second quarter
+           <small title="In the <small> element">(Full Disclosure: Foo News is a
+           subsidiary of Example Corp)</small>, leading to speculation about a
+           third quarter merger with Demo Group.</p>
+        
+        <h3>mark</h3>
+        <p lang="en-US">Consider the following quote:</p>
+        <blockquote lang="en-GB">
+            <p>Look around and you will find, no-one's really
+               <mark>colour</mark> blind.</p>
+        </blockquote>
+        <p lang="en-US">As we can tell from the <em>spelling</em> of the word,
+        the person writing this quote is clearly not American.</p>
+        
+        <h3>abbr</h3>
+        <p>The
+           <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr>
+           started working on <abbr>HTML5</abbr> in 2004.</p>
+        
+        <h3>blockquote</h3>
+        <figure>
+            <blockquote>
+                <p>The truth may be puzzling. It may take some work to grapple
+                   with. It may be counterintuitive. It may contradict deeply
+                   held prejudices. It may not be consonant with what we
+                   desperately want to be true. But our preferences do not
+                   determine what's true. We have a method, and that method
+                   helps us to reach not absolute truth, only asymptotic
+                   approaches to the truth — never there, just closer and
+                   closer, always finding vast new oceans of undiscovered
+                   possibilities. Cleverly designed experiments are the key.</p>
+            </blockquote>
+             <figcaption>Carl Sagan, in "<cite>Wonder and Skepticism</cite>",
+                         from the <cite>Skeptical Enquirer</cite> Volume 19,
+                         Issue 1 (January-February 1995)</figcaption>
+        </figure>
+        
+        <p>He began his list of "lessons" with the following:</p>
+        <blockquote>One should never assume that his side of the issue will be
+                    recognized, let alone that it will be conceded to have
+                    merits.</blockquote>
+        <p>He continued with a number of similar points, ending with:</p>
+        <blockquote class="blockquote-reverse">Finally, one should be prepared for the threat of breakdown
+                    in negotiations at any given moment and not be cowed by the
+                    possibility.</blockquote>
+        <p>We shall now discuss these points...</p>
+    </div>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
