@@ -31,34 +31,45 @@ limitations under the License.
     <div class='container'>
         <h1>Text / Typography</h1>
         
-        <h2>Default Settings</h2>
+        <div class='jumbotron'>
+            <h2>Default Settings</h2>
+            
+            <p>Bootstrap's global default <mark>font-size</mark> is
+               <strong>14px</strong>, with a <mark>line-height</mark> of
+               <strong>1.428</strong> (about <strong>20px</strong>).</p>
+            <p>This is applied to the <code>&lt;body&gt;</code> and all
+               paragraphs (<code>&lt;p&gt;</code>).</p>
+            <p>In addition, all <code>&lt;p&gt;</code> elements hava a
+               <mark>bottom margin</mark> that equals <em>half</em> their
+               computed line-height (<strong>10px</strong> by default).</p>
+        </div>
+
+        <h2 id='h1-h6'>h1 - h6</h2>
+        <ul>
+            <li><h1><mark>h1</mark> heading <small>(36px)</small></h1></li>
+            <li><h2><mark>h2</mark> heading <small>(30px)</small></h2></li>
+            <li><h3><mark>h3</mark> heading <small>(24px)</small></h3></li>
+            <li><h4><mark>h4</mark> heading <small>(18px)</small></h4></li>
+            <li><h5><mark>h5</mark> heading <small>(14px)</small></h5></li>
+            <li><h6><mark>h6</mark> heading <small>(12px)</small></h6></li>
+        </ul>
         
-        <p>Bootstrap's global default <em>font-size</em> is
-           <strong>14px</strong>, with a <em>line-height</em> of
-           <strong>1.428</strong> (about <strong>20px</strong>).</p>
-        <p>This is applied to the <code>&lt;body&gt;</code> and all paragraphs
-           (<code>&lt;p&gt;</code>).</p>
-        <p>In addition, all <code>&lt;p&gt;</code> elements hava a <em>bottom
-           margin</em> that equals <em>half</em> their computed line-height
-           (<strong>10px</strong> by default).</p>
-           
-        <h3>h1 - h6</h3>
-        <ol>
-            <li><h1>h1 heading (36px)</h1></li>
-            <li><h2>h2 heading (30px)</h2></li>
-            <li><h3>h3 heading (24px)</h3></li>
-            <li><h4>h4 heading (18px)</h4></li>
-            <li><h5>h5 heading (14px)</h5></li>
-            <li><h6>h6 heading (12px)</h6></li>
-        </ol>
+        <div class='jumbotron'>
+            <h2>small</h2>
+            <p>In Bootstrap the HTML <code>&lt;small&gt;</code> element is used
+               to create a lighter, secondary text in any
+               <strong>heading</strong>.</p>
+            
+            <h3>In normal paragraph:</h3>
+            <p>Example Corp today announced record profits for the second
+               quarter <small title="In the <small> element">(Full Disclosure:
+               Foo News is a subsidiary of Example Corp)</small>, leading to
+               speculation about a third quarter merger with Demo Group.</p>
+            
+            <h3><a href='#h1-h6'>In heading</a></h3>
+        </div>
         
-        <h3>small</h3>
-        <p>Example Corp today announced record profits for the second quarter
-           <small title="In the <small> element">(Full Disclosure: Foo News is a
-           subsidiary of Example Corp)</small>, leading to speculation about a
-           third quarter merger with Demo Group.</p>
-        
-        <h3>mark</h3>
+        <h2>mark</h2>
         <p lang="en-US">Consider the following quote:</p>
         <blockquote lang="en-GB">
             <p>Look around and you will find, no-one's really
@@ -67,12 +78,14 @@ limitations under the License.
         <p lang="en-US">As we can tell from the <em>spelling</em> of the word,
         the person writing this quote is clearly not American.</p>
         
-        <h3>abbr</h3>
-        <p>The
-           <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr>
-           started working on <abbr>HTML5</abbr> in 2004.</p>
-        
-        <h3>blockquote</h3>
+        <div class='jumbotron'>
+            <h2>abbr</h2>
+            <p>The
+               <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr>
+               started working on <abbr>HTML5</abbr> in 2004.</p>
+        </div>
+
+        <h2>blockquote</h2>
         <figure>
             <blockquote>
                 <p>The truth may be puzzling. It may take some work to grapple
@@ -95,10 +108,93 @@ limitations under the License.
                     recognized, let alone that it will be conceded to have
                     merits.</blockquote>
         <p>He continued with a number of similar points, ending with:</p>
-        <blockquote class="blockquote-reverse">Finally, one should be prepared for the threat of breakdown
-                    in negotiations at any given moment and not be cowed by the
-                    possibility.</blockquote>
+        <blockquote class="blockquote-reverse">Finally, one should be prepared
+                    for the threat of breakdown in negotiations at any given
+                    moment and not be cowed by the possibility.</blockquote>
         <p>We shall now discuss these points...</p>
+        
+        <div class="jumbotron">
+            <h2>dl</h2>
+            
+            <h3>Has the Class <code>.dl-horizontal</code></h3>
+            <dl class='dl-horizontal'>
+                <dt>Authors:</dt>
+                <dd>John</dd>
+                <dd>Luke</dd>
+                <dt>Editor:</dt>
+                <dd>Frank</dd>
+            </dl>
+            
+            <h3>Normal</h3>
+            <dl>
+                <dt lang="en-US"><dfn>color</dfn></dt>
+                <dt lang="en-GB"><dfn>colour</dfn></dt>
+                <dd> - A sensation which (in humans) derives from the ability of
+                    the fine structure of the eye to distinguish three
+                    differently filtered analyses of a view.</dd>
+            </dl>
+        </div>
+
+        <h2>code</h2>
+        <p>The <code>code</code> element represents a fragment of computer code.</p>
+        <p>When you call the <code>activate()</code> method on the
+           <code>robotSnowman</code> object, the eyes glow.</p>
+        <p>The example below uses the <code>begin</code> keyword to indicate the
+           start of a statement block. It is paired with an <code>end</code>
+           keyword, which is followed by the <code>.</code> punctuation
+           character (full stop) to indicate the end of the program.</p>
+        
+        <pre><code class="language-pascal">var i: Integer;
+begin
+   i := 1;
+end.</code></pre>
+
+        <div class='jumbotron'>
+            <h2>kbd</h2>
+            <p>To make George eat an apple, press
+               <kbd><kbd>Shift</kbd>+<kbd>F3</kbd></kbd>.</p>
+            
+            <p>To make George eat an apple, select
+               <kbd><kbd><samp>File</samp></kbd>|<kbd><samp>Eat Apple...</samp></kbd></kbd>.
+               </p>
+        </div>
+
+        <h2>pre</h2>
+        <pre>
+
+            白日依山尽，    Bai Ri Yi Shan Jin,
+                黄河入海流。    Huang He Ru Hai Liu.
+            欲穷千里目，    Yu Qiong Qian Li Mu,
+                更上一层楼。    Geng Shang Yi Ceng Lou.
+        </pre>
+
+
+        <h2>Contextual Colors and Backgrounds</h2>
+        
+        <h3>Text Colors</h3>
+        <p>This text is normal.</p>
+        <p class='text-muted'>This text is muted (<code>.text-muted</code>).</p>
+        <p class='text-primary'>This text is important (<code>.text-primary</code>).</p>
+        <p class='text-success'>This text indicates success (<code>.text-success</code>).</p>
+        <p class='text-info'>This text represents some information (<code>.text-info</code>).</p>
+        <p class='text-warning'>This text represents a warning (<code>.text-warning</code>).</p>
+        <p class='text-danger'>This text represents danger (<code>.text-danger</code>).</p>
+        
+        <h3>Background Colors</h3>
+        <p>This text is normal.</p>
+        <p class='bg-primary'>This text is important (<code>.bg-primary</code>).</p>
+        <p class='bg-success'>This text indicates success (<code>.bg-success</code>).</p>
+        <p class='bg-info'>This text represents some information (<code>.bg-info</code>).</p>
+        <p class='bg-warning'>This text represents a warning (<code>.bg-warning</code>).</p>
+        <p class='bg-danger'>This text represents danger (<code>.bg-danger</code>).</p>
+        
+        <h2>References</h2>
+        
+        <ul>
+            <li><a href='ref-css-typography.html'>CSS Typography Reference</a></li>
+            <li><a href='ref-css-helper-classes.html'>CSS Helper Classes Reference</a></li>
+        </ul>
+        
     </div>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

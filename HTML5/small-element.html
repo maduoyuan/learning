@@ -1,0 +1,67 @@
+<!--
+small-element.html
+
+Copyright 2015 duoyuan ma
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title>small Element</title>
+	<meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <style>
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+    </style>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body class='container'>
+
+    <div class='jumbotron'>
+        <h1>small</h1>
+        <p>The <mark>small</mark> element <em>represents</em> <small>(Elements
+           in the DOM <mark>represent</mark> things; that is, they have
+           <em>intrinsic meaning</em>, also known as <em>semantics</em>)</small>
+           side comments such as small print.</p>
+    </div>
+
+    <p>The <mark>small</mark> element should not be used for extended spans of
+       text, such as multiple paragraphs, lists, or sections of text. It is only
+       intended for short runs of text. The text of a page listing terms of use,
+       for instance, would not be a suitable candidate for the
+       <mark>small</mark> element: in such a case, the text is not a side
+       comment, it is the main content of the page.</p>
+    
+    <p>The <mark>small</mark> element must not be used for subheadings; for that
+       purpose, use the <mark>hgroup</mark> element.</p>
+    
+    <h2>Notes</h2>
+
+    <p>Small print typically features disclaimers, caveats, legal restrictions,
+       or copyrights. Small print is also sometimes used for attribution, or for
+       satisfying licensing requirements.</p>
+
+    <p>The <mark>small</mark> element does not "de-emphasize" or lower the
+       importance of text emphasized by the <mark>em</mark> element or marked as
+       important with the <mark>strong</mark> element. To mark text as not
+       emphasized or important, simple do not mark it up with the
+       <mark>em</mark> or <mark>strong</mark> elements respectively.</p>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

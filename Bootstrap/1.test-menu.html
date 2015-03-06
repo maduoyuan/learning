@@ -1,0 +1,54 @@
+<!--
+1.test-menu.html
+
+Copyright 2015 duoyuan ma
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title>Test Menu</title>
+	<meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <style>
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+    </style>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+	
+    <div class="container">
+        <h2>Example</h2>
+        <p>The .caret class indicates dropdown functionality and direction: <span class="caret"></span></p>
+        <p>The .caret class used on a button:</p>
+        <div class="btn-group">
+            <div type="button" class="btn btn-primary dropdown-toggle"
+                    data-toggle="dropdown">Menu <span class="caret"></span></div>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">A link</a></li>
+                <li><a href="#">Another link</a></li>
+                <li><a href="#">Something else here</a></li>
+            </ul>
+        </div>
+        
+        <button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+    </div>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
